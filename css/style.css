@@ -1,0 +1,109 @@
+header{
+  background-color: #075B14;
+  display: inline-block;
+  width: 100%;
+  color: white;
+
+}
+
+.titulo{
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+}
+
+.logo{
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  margin : 10px;
+  margin-right: 20px;
+
+}
+.imagen_logo{
+  width: 100%;
+  height: 100%;
+}
+
+.imagen_logo2{
+  width: 200%;
+  height: 150%;
+}
+
+input[type="text"],input[type="password"]{
+	height: 30px;
+	width: 150px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 30px;
+}
+.btn-login{
+	padding:15px 25px;
+	color:  #fff;
+	border: none;
+	background-color: #8F928F; 
+
+}
+
+ul{
+	padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+	list-style: none;
+  text-align: left;
+}
+
+
+ul li{
+	display: inline-block;
+	margin: 7px -2px;
+}
+nav ul li a{
+	color:black;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px 10px;
+
+}
+
+.contenedor2{
+ width: 400px;
+ height: 180px;
+ text-align: center;
+ background-color: #C2C6C2;
+ border-radius: 4px;
+ margin: 0 auto;
+ margin-top: 150px;
+ float: center;
+}
+.ingreso{
+	font-weight: bold;
+}
+
+.ocultar{
+  display: none;
+}
+.secciones{
+  background-color: #F5F5F5;
+  margin: 1%;
+  margin-top: 0;
+  padding: 1% 2%;
+  box-shadow: 2px 2px 5px #999;
+}
+.ejemplos:target{
+  display: block;
+}
+
+.ejercicios:target{
+  display: block;
+}
+
+.derecho{
+  display: inline-block;
+  position: absolute;
+  text-align:center;
+  color: black;
+  right: 3%;
+
+}
